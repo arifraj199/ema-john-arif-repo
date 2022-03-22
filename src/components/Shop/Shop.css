@@ -1,0 +1,17 @@
+.products{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+    margin: 120px 40px;
+}
+.order-cart{
+    background: rgba(255, 153, 0, 0.3);
+    text-align: center;
+}
+.order-cart h2{
+    margin-top: 28px;
+}

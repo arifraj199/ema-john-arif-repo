@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.header{
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 146px;
+    padding-right: 139px;
+}
+
+.header a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 36px;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header a:hover{
+    
+    color: orange;
+}
